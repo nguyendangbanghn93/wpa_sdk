@@ -20,3 +20,5 @@ const AwesomeModule = NativeModules.AwesomeModule
 export function multiply(a: number, b: number): Promise<number> {
   return AwesomeModule.multiply(a, b);
 }
+
+export { default as WPA } from './WPA';
